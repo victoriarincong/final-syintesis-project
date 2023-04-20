@@ -4,11 +4,11 @@ html {
 
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 header h1 {
-  background-image: url(../imagenes/galaxia.jpeg);
+  background-image: url(../imagenes/others/galaxia2.jpeg);
   color: white;
   padding: 2rem 0rem;
   font-size: 3rem;
@@ -62,15 +62,25 @@ body p:hover {
 }
 
 footer {
-  background-image: url(../imagenes/galaxia.jpeg);
-  padding: 3rem;
+  background-image: url(../imagenes/others/galaxia2.jpeg);
+  padding: 1rem;
+  text-align: right;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   border-radius: 1.5rem;
 }
 
+#escudocolegio_img {
+  width: 160px;
+  height: 205px;
+  margin-left: 20px;
+  margin-right: 450px;
+  display: block;
+}
+
 footer p {
   margin: 0;
+  text-align: right;
 }
 
 footer a {
